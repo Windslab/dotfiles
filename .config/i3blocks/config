@@ -1,0 +1,74 @@
+[SAVE WORKSPACES]
+full_text=🖥️ 1-9
+command=urxvt -e ~/.config/i3blocks/system/save-workspaces.sh
+color=#f1fa8c
+
+[LAUNCH THUNAR]
+full_text=📁 EXP
+command=i3-msg -q exec thunar
+color=#f8f8f2
+
+[PROXMARK LAUNCH]
+full_text=💳 PM3
+command=urxvt -e ~/.config/i3blocks/proxmark/proxmark_launch.sh
+color=#50fa7b
+
+[PROXMARK COMPILE]
+full_text=🧵 PM3
+command=urxvt -e ~/.config/i3blocks/proxmark/proxmark_compile.sh
+color=#ff79c6
+
+[PROXMARK PLATFORM]
+full_text=📟 GENER
+command=i3-msg -q exec ~/.config/i3blocks/proxmark/proxmark_platform.sh
+color=#f1fa8c
+
+[PROXMARK BACKUP]
+full_text=💽 SAVE
+command=urxvt -e ~/.config/i3blocks/proxmark/proxmark_backup.sh
+color=#8be9fd
+
+[SYSTEM UPDATE]
+full_text=📦 UPD
+command=urxvt -e sudo ~/.config/i3blocks/system/update.sh
+color=#8be9fd
+
+[DISK]
+command=df -h / | awk '/\//{ printf("💿%4s/%s \n", $4, $2) }'
+interval=2
+color=#bd93f9
+
+[CPU]
+command=echo "$(mpstat 1 1 | awk '/Average:/ { printf("%s\n", $(NF-9)) }')" | awk '{ printf("🚀%6s% % \n"), $1, $2 }'
+interval=repeat
+color=#bd93f9
+
+[MEM]
+command=free -h --giga | awk '/Mem:/ { printf("🧠%5s/%s \n", $3, $2) }'
+interval=1
+color=#bd93f9
+
+[PING & IP_EXTERNAL]
+command=if ping -w 1 -c 1 8.8.8.8 >/dev/null 2>&1; then echo "📡" $(curl http://ipinfo.io/ip); else echo "📡 NO"; fi
+interval=10
+color=#6272a4
+
+[KEYBOARD]
+command=xset -q | grep LED | awk '{if ($10>0) print "🌍 RU";else print "🌎 US";}'
+interval=repeat
+color=#ff5555
+
+[TIME_DATE]
+command=echo "🕛 "$(date +"%H:%M")
+interval=repeat
+color=#ffb86c
+
+[DOTS UPDATE]
+full_text=🔥
+command=i3-msg -q exec ~/.config/i3blocks/system/dots_update.sh
+color=#ffb86c
+
+[SYSTEM INSTALL]
+full_text=⚙️
+command=urxvt -e ~/.config/i3blocks/system/setup.sh
+color=#ffb86c

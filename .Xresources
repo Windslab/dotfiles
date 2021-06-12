@@ -1,0 +1,85 @@
+##### THIS FILE IS BEING CURRENTLY MANAGED BY URXVTCONFIG #####
+##### CHANGES DONE TO THIS FILE MANUALLY MAY AFFECT THE FUNCTIONALITY ######
+##### PROCEED WITH CAUTION! #####
+
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
+
+URxvt.foreground: #F8F8F2
+URxvt.background: #282A36
+URxvt.color0:     #000000
+URxvt.color8:     #4D4D4D
+URxvt.color1:     #FF5555
+URxvt.color9:     #FF6E67
+URxvt.color2:     #50FA7B
+URxvt.color10:    #5AF78E
+URxvt.color3:     #F1FA8C
+URxvt.color11:    #F4F99D
+URxvt.color4:     #BD93F9
+URxvt.color12:    #CAA9FA
+URxvt.color5:     #FF79C6
+URxvt.color13:    #FF92D0
+URxvt.color6:     #8BE9FD
+URxvt.color14:    #9AEDFE
+URxvt.color7:     #BFBFBF
+URxvt.color15:    #E6E6E6
+URxvt.colorUL:    #bd93f9
+
+URxvt.perl-ext-common: default,matcher,resize-font,vtwheel
+
+Xcursor.theme: ComixCursors-Opaque-White
+Xcursor.size: 64
+Xft.dpi: 250
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+URxvt*termName:     xterm-256color
+URxvt*scrollBar:    false
+URxvt.scrollstyle:  plain
+URxvt*.transparent: true
+URxvt.allow_bold:   true
+URxvt*.shading:     80
+URxvt.iso14755:     false
+URxvt.iso14755_52:  false
+
+URxvt.url-launcher:           /usr/bin/xdg-open
+URxvt.matcher.button:         1
+URxvt.clipboard.autocopy:     true
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+URxvt.font:           xft:Fira Code Retina:size=13,xft:Noto Color Emoji
+URxvt.boldFont:       xft:Fira Code Bold:size=13,xft:Noto Color Emoji
+URxvt.italicFont:     xft:Fira Code Retina:size=13,xft:Noto Color Emoji
+URxvt.boldItalicFont: xft:Fira Code Bold:size=13,xft:Noto Color Emoji
+
+URxvt.keysym.C-minus:    resize-font:smaller
+URxvt.keysym.C-equal:    resize-font:bigger
+URxvt.keysym.C-plus:     resize-font:reset
+URxvt.keysym.C-question: resize-font:show
+
+URxvt.letterSpace: 0
+
+*antialias:  true
+*autohint:   true

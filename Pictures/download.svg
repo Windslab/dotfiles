@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="132.292mm" height="29.1042mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 13229.16 2910.42"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5/distr/fira_code.css);
+    .str0 {stroke:#162B46;stroke-width:132.29;stroke-miterlimit:22.9256}
+    .fil2 {fill:#162B46}
+    .fil0 {fill:#EEE7D6;fill-rule:nonzero}
+    .fil1 {fill:white;fill-rule:nonzero}
+    .fnt1 {font-weight:normal;font-size:529.17px;font-family:'Fira Code', monospace}
+    .fnt0 {font-weight:600;font-size:793.75px;font-family:'Fira Code', monospace}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M529.16 0l12170.84 0c292.2,0 529.17,236.97 529.17,529.17l-0.01 1852.08c0.01,292.19 -236.96,529.16 -529.16,529.16l-12170.84 0.01c-292.19,-0.01 -529.16,-236.98 -529.16,-529.18l0 -1852.07c0,-292.2 236.97,-529.17 529.17,-529.17z"/>
+  <path class="fil1 str0" d="M621.77 740.83c0,-65.75 53.3,-119.06 119.06,-119.06l873.12 0 4.39 0 405.72 410.81 0 1163.46c0,65.76 -53.31,119.07 -119.06,119.07l-1164.17 0c-65.76,0 -119.06,-53.31 -119.06,-119.07l0 -1455.21z"/>
+  <text x="2980.4" y="1375.88"  class="fil2 fnt0">Arch_Linux.zip</text>
+  <text x="2958.45" y="2117.52"  class="fil2 fnt1">January 02, 2021 - 1.88 GB</text>
+ </g>
+</svg>

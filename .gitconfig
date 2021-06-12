@@ -1,0 +1,7 @@
+[user]
+	name = YourName
+	email = email@example.com
+[credential]
+	helper = store
+[core]
+	editor = vim
